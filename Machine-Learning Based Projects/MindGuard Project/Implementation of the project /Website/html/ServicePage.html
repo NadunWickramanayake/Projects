@@ -1,0 +1,179 @@
+<html>
+  <header>
+    <title>Service Page</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!--  Styles  -->
+    
+  <link rel="stylesheet" href="../css/ServicePage.css">
+  </header>
+  <body>
+   
+    <header>
+      <a href="#" ><img src="../app_photos/logo.png" class="logo"></a>
+      <ul>
+          <li><a href="../html/index.html" class="active">Back to Home</a></li>
+          <!-- <li class="dropdown">
+              <a href="../html/form.html" class="dropbtn">Services</a>
+              <div class="dropdown-content">
+                  <a href="form.html">Quick Screening</a>
+                  <a href="form.html">In-Depth Screening</a> 
+              </div>
+          </li> -->
+          <li><a href="../html/AboutUs.html">About Us</a></li>	
+          <li class="right"><a href="../html/review.html">Customer reviews</a></li>
+      </ul>
+  </header>
+  
+  <style>
+      /* Navigation Bar Styling */
+header {
+position: fixed;	
+top: 0;
+left: 0;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+background-color: #140238;
+padding: -40px 0px;
+box-shadow: 0px 0px 10px rgba(123, 102, 210, 0.1);
+z-index: 999;
+}
+
+.logo {
+
+margin-top: 20px;
+height: 60px;
+width: 60px;
+}
+
+ul {
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+margin-right: 20px;
+}
+
+li:last-child {
+margin-right: 0;
+}
+
+a {
+color: #7a46f3;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+text-transform: uppercase;
+padding: 10px 20px;
+border-radius: 5px;
+transition: all 0.3s ease;
+}
+
+a.active,
+a:hover {
+background-color: #aca3ea;
+color: #6d59bd;
+}
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+  
+      .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 12px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+  
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        margin-top: 5px;
+      }
+  
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+  
+      .dropdown-content a:hover {background-color: #685acf;}
+  
+      .dropdown:hover .dropdown-content {display: block;}
+  
+      .dropdown:hover .dropbtn {background-color: #1e0298;}
+      
+      .right {
+          float: right;
+          margin-left: 150px;
+
+      }
+      
+      .right a {
+          display: inline-block;
+          background-color: #3754e7;
+          color: white;
+          padding: 14px 20px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 16px;
+          border-radius: 5px;
+      }
+      
+      .right a:hover {
+          background-color: #706898;
+      }
+  </style>
+
+  <section>
+    <h3>Our Services</h3>
+    <p class="section-lead">Mental health services refer to a range of resources and interventions a
+      imed at promoting and maintaining mental well-being, treating mental health disorders, and supporting 
+      individuals experiencing mental health challenges. These services can include quick screening,
+      indepth screening and generating reports of to identify the level of depression..</p>
+
+    <div class="services-grid">
+      <div class="service service1">
+        <img src="../app_photos/question.jpg" alt="service1" class="service_image1">
+        <i class="ti-bar-chart"></i>
+        <h4>Quick Screening</h4>
+        <p>Providing a set of questions to the user and using their answers
+           generate the depression level of the user..</p>
+        
+      </div>
+  
+      <div class="service service2">
+        <img src="../app_photos/robot.jpg" alt="service2" class="service_image2">
+        <i class="ti-light-bulb"></i>
+        <h4>Indepth Screening</h4>
+        <p>Provide a chatbot feature and user can share their feeling through that.
+          Then using that users answers generate the depression level of the user.</p>
+        
+      </div>
+  
+      <div class="service service3">
+        <img src="../app_photos/report.jpg" alt="service3" class="service_image3">
+        <i class="ti-money"></i>
+        <h4>Generating Reports</h4>
+        <p>Using chatbot feature generate the report about users depression level.</p>
+        
+      </div>
+    </div>
+  </section>
