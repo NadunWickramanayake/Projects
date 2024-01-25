@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="logo" href="logo.png">
+  <title>Query | Visit Thambapanni</title>
+
+  <!--Link for the css file-->
+  <link rel="stylesheet" href="Stylesheet/styleQuery.css">
+  <link rel="stylesheet" href="Stylesheet/chamindufooter.css">
+  <link rel="stylesheet" href="Stylesheet/nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+
+</head>
+
+<body>
+
+  <!--header section starts -->
+  <header>
+    <a href="Presentation Page.html"><img src="Photos\logo.png" width="140px" height="140px"></a>
+
+    <!--navigation bar-->
+	
+    <div class="nav" id="navId">
+	<br>
+	 <br>
+	 <br>
+	
+      <a href="home.html">Home</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="ThingsToDo.html">Things To Do</a>
+      <a href="shop.html">Shop</a>
+      <a href="sitemap.html">Site Map</a>
+      <a href="Quiz.html">Quiz</a>
+      <a href="AboutUs.html">About Us</a>
+      <a href="query.html">Query</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+  <!--header section ends -->
+
+  <!--query section starts -->
+  <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+  <form form action="mailto:chamindu.20210091@iit.ac.lk" method="post" enctype="text/plain" name="feedback" class="query" >
+<br>
+	 
+<div id="formId">
+    <label for="name">Name :</label>
+    <input type="text" placeholder="Enter your name here" id="name" autofocus>
+
+
+
+    <label for="subject">Subject :<br></label>
+    <div class="radioClass">
+      <input type="radio" value="Delivery" name="subject">Delivery<br>
+      <input type="radio" value="Product" name="subject">Product<br>
+      <input type="radio" value="Price" name="subject">Price<br>
+      <input type="radio" value="Quality" name="subject">Quality<br>
+      <input type="radio" value="Login Issues" name="subject">Login Issues<br><br>
+    </div>
+	<label for="email">Email :</label>
+    <input type="text" placeholder="Enter your email here" id="email">
+
+    <label for="details"><b>Details:</b></label>
+    <textarea rows="5" cols="30" name="details" placeholder="Enter the details here"></textarea>
+    <input type="button" id="entry" onclick="displayDetails()" value="View Query" />
+  </div>
+  
+  
+
+  <table id="display">
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Subject</th>
+      <th>Details</th>
+    </tr>
+  
+  </table>
+  
+  <button class="submit" id="submit">Send </button>
+  <button type="button" id="reset" onclick="show()"  class="clear">Edit</button>
+</form>
+<br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 
+  <!--query section ends -->
+
+
+
+  <!--footer section starts-->
+
+  <footer>
+
+    <div class="column"  >
+        <ul style="list-style: none;">
+            <div class="content">
+		<a href="query.html" class="button">COMMENT</a>
+        </ul>
+
+    </div>
+    <div class="column" >
+        
+        </ul>
+
+
+        <p>
+        
+		 <div class="logo">
+          <a href="home.html"><img src="photos\logo.png" width="250px" height="250px"></a><br>
+        </div>
+	<hr>
+		<br>
+		<ul id="Contacticons">
+
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="photos\icons8-youtube-500.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="photos\fblogo.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="photos\icons8-instagram-500.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.booking.com/" target="_blank">
+                <img src="photos\booking.jfif" alt="" width="60" class="contactmeimg ">
+            </a>
+        </p>
+		
+    </div>
+	<hr>
+        <p>
+        
+
+
+        <ul id="Contacticons">
+
+            
+        </ul>
+		
+    <div class="column" >
+        <h2 style = "font-size:20px;">Visit Thambapanni</h2>
+        <p style = "font-size:17px;  padding:50px;">Visit Thambapanni webpage founders Chamindu,Didula,Chirantha and Nadun Wheeler stapled together their first guidebook <br>
+		after an epic trip across Asia, Visit Thambapanni has put travellers at the heart of everything we do,<br>
+		informing and inspiring them with trusted content for print and digital from experts who visit every destination.</p>
+    </div>
+	</footer>
+  
+  
+<a href="Page editor\Page Editor(chamindu).html" class="button">PAGE EDITER</a>
+  <!--footer section ends-->
+  <!--back to top-->
+  <a class="gotopbtn" href="#"> <i >&uarr;</i> </a>
+  <!--Link for the javascript file-->
+  <script src="javascript/script.js"></script>
+  <script src="javascript/scriptQuery.js"></script>
+</body>
+
+</html>

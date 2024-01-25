@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.btnSubs {
+  background: rgb(247, 171, 58);
+  color: #fff;
+  margin: 10px .17px;
+  cursor: pointer;
+  text-align: center;
+  padding: .6rem 1rem ;  
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+.btnSubs:hover  {
+  background: rgba(255, 165, 0, .2);
+  color: rgb(247, 171, 58);
+}  
+.button{ 
+  background-color: rgb(247, 171, 58);
+  color: #fff;  
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 8px;
+
+}
+.button:hover  {
+  background: rgba(255, 165, 0, .2);
+  color: rgb(247, 171, 58);
+}
+footer .content {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+.linkNav{
+  text-align: center;
+  padding-right: 15rem;
+  padding-top: 10px;
+  font-size: 25px; 
+}
+ .linkNav a{
+  text-decoration: none;
+  opacity: 0.65;
+  color: black;
+}
+footer{
+  background-color: rgb(92, 105, 104);
+  line-height: 35px; 
+  
+  
+}
+footer .content a:hover{
+  opacity: .65;
+  color: orange;
+  font-size: 30px; 
+}
+.column{
+	background-color:rgb(92, 105, 104);
+	color:white;
+	
+}
+/footer section styling ends/
+
+/back to top/
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: orange;
+  bottom: 40px;
+  right: 50px;
+  border-radius:25px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}

@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="logo" href="logo.png">
+    <title>Shop | Visit Thambapanni</title>
+    <link rel="stylesheet" href="Stylesheet/styleShop.css">
+	 <link rel="stylesheet" href="Stylesheet/nav.css">
+	<link rel="stylesheet" href="Stylesheet/chamindufooter.css">
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="javascript/store.js" async></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+<body>
+<!--header section starts -->
+<header>
+
+    <a href="Presentation Page.html"><img src="Photos/logo.png" width="100px" height="100px" ></a>
+
+    <!--navigation bar-->
+    <div class="nav" id="navId">
+
+<br>
+<br><br>
+
+        <a href="home.html">Home</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="ThingsToDo.html">Things To Do</a>
+        <a href="shop.html">Shop</a>
+        <a href="svg.html">Site Map</a>
+        <a href="Quiz.html">Quiz</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="query.html">Query</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+	
+    <div class="parallax">
+        <h1>Shopping Center!!!</h1>
+        <p>Start Shopping Sri Lankan Travelling Products!!!</p>
+
+    </div>
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+
+</div>
+    <div class="login-color">
+
+            <hr>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			
+
+           <h2 class="login">Enter Your Details Below</h2>
+            <hr>
+        <form name="feedbackForm"  onsubmit="validateForm()" >
+            <fieldset>
+                <legend><b style="font-size:18px;">Enter Your Data</b></legend>
+                <br><label for="fname" id="fn" >Name:</label>
+                <input type="text" id="name"  name="firstname" placeholder="Enter Your Name...."><p></p>
+
+                <br><br><label for="email" id="fn">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Enter Your Email Address...."><p></p>
+
+                <br><br><label for="password" id="fn">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter Your Password...."><p></p>
+				
+				<br><br><label for="telephone" id="fn">Telephone:</label>
+                <input type="tel" id="telephone" name="telephone" placeholder="Enter Your Telephone Number...."><p></p>
+
+
+                <input type="submit" id="submit" name="submit" value="Submit" class="submit"> &nbsp;
+                <input type="reset" id="reset" name="reset" value="Reset" class="reset">
+            </fieldset>
+
+
+        </form>
+        <script src="javascript/scriptShop.js" ></script>
+
+
+    <!-- shop -->
+
+	<div class="parallax6">
+        <h1>Made In Sri Lanka</h1>
+
+    </div>
+    <div class="catergories">
+
+            <div class="minor-container">
+                <div class="row">
+                    <div class="ibox">
+                        <span class="name">PREMIUM CEYLON BLACK TEA - 250G LOOSE LEAF TEA</span>
+                        <img class="image" src="ShopImages/tea1.webp">
+                        <div class="shop-item-details">
+                            <span class="price">$11.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="ibox">
+                        <span class="name">BASILUR TEA - Citrus Bliss </span>
+                        <img class="image" src="ShopImages/tea2.webp">
+                        <div class="shop-item-details">
+                            <span class="price">$8.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Cushion Cover - Dumbara Design</span>
+                        <img class="image" src="ShopImages/cushion.webp">
+                        <div class="shop-item-details">
+                            <span class="price">$11.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Gift Set - 6 Table mats with the runner</span>
+                        <img class="image" src="ShopImages/mat.webp">
+                        <div class="shop-item-details">
+                            <span class="price">$32.30</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Necklace - Handmade</span>
+                        <img class="image" src="ShopImages/necklace.webp">
+                        <div class="shop-item-details">
+                            <span class="price">$12.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Necklace - EMB Round Beads - Handmade</span>
+                        <img class="image" src="ShopImages/neck2.webp">
+                        <div class="shop-item-details">
+                            <span class="price">$15.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Ceylon Cinnamon - 1KG </span>
+                        <img class="image" src="ShopImages/cin.webp">
+                        <div class="shop-item-details">
+                            <span class="price">$47.00</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+					<div class="ibox">
+                        <span class="name">Black Pepper - 50g </span>
+                        <img class="image" src="ShopImages/pepper.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$9.50</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+	
+
+    <div class="parallax1">
+        <h1>Travel Aids</h1>
+    </div>
+    <div class="catergories">
+
+        <div class="minor-container">
+            <div class="row">
+                <div class="ibox">
+                    <span class="name">Go Pro</span>
+                    <img class="image" src="ShopImages/gopro.jfif">
+                    <div class="shop-item-details">
+                        <span class="price">$578.95</span>
+                        <button class="button1" type="button">ADD TO CART</button>
+                    </div>
+                   
+
+                </div>
+
+                <div class="ibox">
+                    <span class="name">Nikon D7500 DSLR Camera</span>
+                    <img class="image" src="ShopImages/camera.jpg">
+                    <div class="shop-item-details">
+                        <span class="price">$1566.46</span>
+                        <button class="button1" type="button">ADD TO CART</button>
+                    </div>
+                    
+
+                </div>
+                <div class="ibox">
+                    <span class="name">Binocular</span>
+                    <img class="image" src="ShopImages/binocular.jpg">
+                    <div class="shop-item-details">
+                        <span class="price">$175.89</span>
+                        <button class="button1" type="button">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+                <div class="ibox">
+                    <span class="name">Coleman Cabin Tent </span>
+                    <img class="image" src="ShopImages/tent1.jpg">
+                    <div class="shop-item-details">
+                        <span class="price">$146.58</span>
+                        <button class="button1" type="button">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+                <div class="ibox">
+                    <span class="name">Pacific Pass Camping Tent</span>
+                    <img class="image" src="ShopImages/tent2.jpg">
+                    <div class="shop-item-details">
+                        <span class="price">$67.99</span>
+                        <button class="button1" type="button">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+                <div class="ibox">
+                    <span class="name">Fishing Rod</span>
+                    <img class="image" src="ShopImages/fishingrod.webp">
+                    <div class="shop-item-details">
+                        <span class="price">$25.65</span>
+                        <button class="button1" type="button">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+                <div class="ibox">
+                    <span class="name">Venture Pal 40L Lightweight Pack</span>
+                    <img class="image" src="ShopImages/bag2.jpg">
+                    <div class="shop-item-details">
+                        <span class="price">$40.31</span>
+                        <button class="button1" type="button">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+                <div class="ibox">
+                    <span class="name">YOREPEK Backpack for Men,Extra Large 50L</span>
+                    <img class="image" src="ShopImages/bag1.jpg">
+                    <div class="shop-item-details">
+                        <span class="price">$58.43</span>
+                        <button class="button1" type="button">ADD TO CART</button>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="parallax2">
+        <h1>Clothing</h1>
+        </div>
+
+
+        <div class="catergories">
+
+            <div class="minor-container">
+                <div class="row">
+                    <div class="ibox">
+                        <span class="name">Nike Womens Black Shoe</span>
+                        <img class="image" src="ShopImages/shoe1.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$102.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="ibox">
+                        <span class="name">Nike Men's Revolution 5 Wide Running Shoe</span>
+                        <img class="image" src="ShopImages/shoe2.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$86.79</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Nike Men's Benassi Just Do It Slide Sandal</span>
+                        <img class="image" src="ShopImages/shoe3.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$56.95</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+					
+					<div class="ibox">
+                        <span class="name">Thambapanni T-Shirt</span>
+                        <img class="image" src="ShopImages/tshirt1.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$10.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Sri Lankan T-shirt</span>
+                        <img class="image" src="ShopImages/tshirt2.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$6.79</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Ceylon T-Shirt</span>
+                        <img class="image" src="ShopImages/tshirt3.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$56.95</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+					
+					<div class="ibox">
+                        <span class="name">BALEAF Women's Hiking Cargo Pants</span>
+                        <img class="image" src="ShopImages/jeans1.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$33.93</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Men's Stretch Skinny Jeans</span>
+                        <img class="image" src="ShopImages/jeans2.jpeg">
+                        <div class="shop-item-details">
+                            <span class="price">$32.79</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Womens Snow Pants Waterproof</span>
+                        <img class="image" src="ShopImages/jeans3.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$35.95</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+					
+					<div class="ibox">
+                        <span class="name">Tommy Hilfiger Hat</span>
+                        <img class="image" src="ShopImages/cap1.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$27.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Sri Lankan Cap</span>
+                        <img class="image" src="ShopImages/cap.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$6.79</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Camo Cap</span>
+                        <img class="image" src="ShopImages/cap2.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$56.95</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="parallax3">
+        <h1>Toiletries</h1>
+
+    </div>
+    <<div class="catergories">
+
+            <div class="minor-container">
+                <div class="row">
+                    <div class="ibox">
+                        <span class="name">Oral-B Pro Health All In One Soft Toothbrushes, 6 Count</span>
+                        <img class="image" src="ShopImages/toothbrush.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$17.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="ibox">
+                        <span class="name">Hammam Linen White Bath Towels 4-Pack</span>
+                        <img class="image" src="ShopImages/towel1.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$47.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Hammam Linen Cool Grey Bath Towels 4-Pack</span>
+                        <img class="image" src="ShopImages/towel2.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$47.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Dove Beauty Bar</span>
+                        <img class="image" src="ShopImages/soap1.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$12.30</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Softsoap Liquid Hand Soap</span>
+                        <img class="image" src="ShopImages/soap2.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$12.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">Suave Essentials Moisturizing Shampoo</span>
+                        <img class="image" src="ShopImages/shampoo1.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$15.99</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                    <div class="ibox">
+                        <span class="name">TRESemmé Shampoo</span>
+                        <img class="image" src="ShopImages/shampoo2.jpg">
+                        <div class="shop-item-details">
+                            <span class="price">$17.22</span>
+                            <button class="button1" type="button">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="parallax4">
+        <h1>Health</h1>
+
+    </div>
+            <div class="catergories">
+
+                <div class="minor-container">
+                    <div class="row">
+                        <div class="ibox">
+                            <span class="name">MEKKAPRO Ultra Large Mosquito Net</span>
+                            <img class="image" src="ShopImages/net2.jpg">
+                            <div class="shop-item-details">
+                                <span class="price">$22.99</span>
+                                <button class="button1" type="button">ADD TO CART</button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="ibox">
+                            <span class="name">Coghlan's Rectangular Mosquito Net</span>
+                            <img class="image" src="ShopImages/net1.jpg">
+                            <div class="shop-item-details">
+                                <span class="price">$27.99</span>
+                                <button class="button1" type="button">ADD TO CART</button>
+                            </div>
+                            
+                        </div>
+                        <div class="ibox">
+                            <span class="name">OLLY Kids Multivitamin + Probiotic Gummyspan</span>
+                            <img class="image" src="ShopImages/vitamins1.jpg">
+                            <div class="shop-item-details">
+                                <span class="price">$28.99</span>
+                                <button class="button1" type="button">ADD TO CART</button>
+                            </div>
+                            
+                        </div>
+                        <div class="ibox">
+                            <span class="name">OLLY Men's Multivitamin Gummy</span>
+                            <img class="image" src="ShopImages/vitamins2.jpg">
+                            <div class="shop-item-details">
+                                <span class="price">$28.99</span>
+                                <button class="button1" type="button">ADD TO CART</button>
+                            </div>
+                            
+                        </div>
+                        <div class="ibox">
+                            <span class="name">OLLY Women's Multivitamin Gummy</span>
+                            <img class="image" src="ShopImages/vitamins3.jpg">
+                            <div class="shop-item-details">
+                                <span class="price">$28.99</span>
+                                <button class="button1" type="button">ADD TO CART</button>
+                            </div>
+                            
+                        </div>
+                        <div class="ibox">
+                            <span class="name">Justhuman 24 Hour Protection Hand Sanitizer</span>
+                            <img class="image" src="ShopImages/sanitizer1.jpg">
+                            <div class="shop-item-details">
+                                <span class="price">$21.99</span>
+                                <button class="button1" type="button">ADD TO CART</button>
+                            </div>
+                            
+                        </div>
+						<div class="ibox">
+                            <span class="name">Purell Advanced Hand Sanitizer Refreshing Gel, Clean Scent, 2 fl oz Travel Size Flip Cap Bottle (Pack of 6)</span>
+                            <img class="image" src="ShopImages/sanitizer2.jpg">
+                            <div class="shop-item-details">
+                                <span class="price">$23.99</span>
+                                <button class="button1" type="button">ADD TO CART</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="parallax5">
+                    <h1>Stickers & Others</h1>
+
+                </div>
+                <div class="catergories">
+
+                    <div class="minor-container">
+                        <div class="row">
+                            <div class="ibox">
+                                <span class="name">Sticker NO1</span>
+                                <img class="image" src="ShopImages/sticker.jpg">
+                                <div class="shop-item-details">
+                                    <span class="price">$0.99</span>
+                                    <button class="button1" type="button">ADD TO CART</button>
+                                </div>
+                                
+                            </div>
+
+                            <div class="ibox">
+                                <span class="name">Sticker NO2</span>
+                                <img class="image" src="ShopImages/sticker2.jpg">
+                                <div class="shop-item-details">
+                                    <span class="price">$0.99</span>
+                                    <button class="button1" type="button">ADD TO CART</button>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="ibox">
+                                <span class="name">Key Tag</span>
+                                <img class="image" src="ShopImages/tag1.jpg">
+                                <div class="shop-item-details">
+                                    <span class="price">$1.99</span>
+                                    <button class="button1" type="button">ADD TO CART</button>
+                                </div>
+                                
+                            </div>
+                            <div class="ibox">
+                                <span class="name">Bottle</span>
+                                <img class="image" src="ShopImages/bottle.jpg">
+                                <div class="shop-item-details">
+                                    <span class="price">$6.99</span>
+                                    <button class="button1" type="button">ADD TO CART</button>
+                                </div>
+                                
+                            </div>
+
+                            <div class="ibox">
+                                <span class="name">Sri Lankan Mug</span>
+                                <img class="image" src="ShopImages/cup1.jpg">
+                                <div class="shop-item-details">
+                                    <span class="price">$9.99</span>
+                                    <button class="button1" type="button">ADD TO CART</button>
+                                </div>
+                                
+                            </div>
+
+                            <div class="ibox">
+                                <span class="name">Mask NO1</span>
+                                <img class="image" src="ShopImages/mask.jpg">
+                                <div class="shop-item-details">
+                                    <span class="price">$6.99</span>
+                                    <button class="button1" type="button">ADD TO CART</button>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="ibox">
+                                <span class="name">Mask NO2</span>
+                                <img class="image" src="ShopImages/mask1.jpg">
+                                <div class="shop-item-details">
+                                    <span class="price">$6.99</span>
+                                    <button class="button1" type="button">ADD TO CART</button>
+                                </div>
+                                
+                            </div>
+                            <div class="ibox">
+                                <span class="name">Mask NO3</span>
+                                <img class="image" src="ShopImages/mask2.jpg">
+                                <div class="shop-item-details">
+                                    <span class="price">$6.99</span>
+                                    <button class="button1" type="button">ADD TO CART</button>
+                                </div>
+                               
+                            </div>
+							
+                        </div>
+                    </div>
+					
+					
+
+                    
+
+
+
+                        <!-- cart -->
+    <section class="container content-section">
+        <h2 class="section-header">CART SECTION</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
+
+</div>
+                   
+
+	 
+ <footer>
+
+    <div class="column"  >
+        <ul style="list-style: none;">
+            <div class="content">
+		<a href="query.html" class="button">COMMENT</a>
+        </ul>
+
+    </div>
+    <div class="column" >
+        
+        </ul>
+
+
+        <p>
+        
+		 <div class="logo">
+          <a href="home.html"><img src="photos\logo.png" width="250px" height="250px"></a><br>
+        </div>
+	<hr>
+		<br>
+		<ul id="Contacticons">
+
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="Photos\icons8-youtube-500.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="Photos\fblogo.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="Photos\icons8-instagram-500.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            
+        </p>
+		
+    </div>
+	<hr>
+        <p>
+        
+
+
+        <ul id="Contacticons">
+
+            
+        </ul>
+		
+    <div class="column" >
+        <h2 style = "font-size:20px;">Company Name</h2>
+        <p style = "font-size:17px;  padding:50px;">Visit Thambapanni webpage founders Chamindu,Didula,Chirantha and Nadun Wheeler stapled together their first guidebook <br>
+		after an epic trip across Asia, Visit Thambapanni has put travellers at the heart of everything we do,<br>
+		informing and inspiring them with trusted content for print and digital from experts who visit every destination.</p>
+    </div>
+	</footer>
+  
+  
+<a href="Page editor\Page Editor(didula).html" class="button">PAGE EDITER</a>
+  <!--footer section ends-->
+  <!--back to top-->
+  <a class="gotopbtn" href="#"> <i >&uarr;</i> </a>
+  <!--Link for the javascript file-->
+  <script src="javascript/script.js"></script>
+  <script src="javascript/scriptQuery.js"></script>
+</body>
+
+</html>
+    <a style="text-decoration: none; color: black; font-size: 20px;" href="Page editor/Page Editor(didula).html"></a>
+	
+
+	<script>
+		function display() {
+			alert("Thank you to subscribe us! ")
+		}
+	</script>
+                   
+
+</body>
+</html>

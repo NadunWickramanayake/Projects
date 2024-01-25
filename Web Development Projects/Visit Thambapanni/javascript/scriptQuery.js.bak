@@ -1,0 +1,85 @@
+//function for nav bar
+function myFunction() {
+   var x = document.getElementById("navId");
+   if (x.className === "nav") {
+     x.className += " responsive";
+   } else {
+     x.className = "nav";
+   }
+ }
+ var row=1;
+
+//function for display details in the table when the query button click
+function displayDetails(){
+   var name = document.forms["feedback"]["name"].value;
+   var email = document.forms["feedback"]["email"].value;
+   var details = document.forms["feedback"]["details"].value;
+   var subject=document.forms["feedback"]["subject"].value;
+   var valid_name_letters = /^[a-zA-Z-'. ]+$/;
+   var valid_email_letters = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if ( name== "") {
+        alert("Enter your name!"); 
+        return false;
+    }
+    else if(!(name.match(valid_name_letters))){
+        alert('Please Enter your Correct name!');
+        return false;
+    }
+       
+    if ( email== "") {
+      alert(" Enter your email address"); 
+       return false;
+    }
+    else if(!(email.match(valid_email_letters))){
+       alert('Your Email is not valid!! Please Enter a valid email address');
+       return false;
+    }
+    if ( subject== "") {
+       alert("Add a subject!"); 
+       return false;
+    }
+    if ( details== "") {
+       alert("Add a feed back"); 
+       return false;
+    }
+    else{
+       
+      document.getElementById("formId").style.display = "none";
+      document.getElementById("display").style.display = "block";
+      document.getElementById("submit").style.display = "block";
+      document.getElementById("reset").style.display = "block"; 
+    }
+    
+
+    var display=document.getElementById("display");
+    var newRow=display.insertRow(row);
+  
+   
+    var cell1=newRow.insertCell(0);
+    var cell2=newRow.insertCell(1);
+    var cell3=newRow.insertCell(2);
+    var cell4=newRow.insertCell(3);
+
+
+    cell1.innerHTML=name;
+    cell2.innerHTML=email;
+    cell3.innerHTML=subject;
+    cell4.innerHTML=details;
+ 
+
+}
+
+function show(){
+   document.getElementById("formId").style.display = "block";
+   document.getElementById("display").style.display = "none";
+   document.getElementById("submit").style.display = "none";
+   document.getElementById("reset").style.display = "none";
+   
+}
+
+  
+//function for the subscribe button in the footer
+function display() {
+   alert("You have subscribe us , Thank you!!!")
+ }
+

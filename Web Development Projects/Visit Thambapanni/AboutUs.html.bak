@@ -1,0 +1,183 @@
+
+<!doctype html>
+    <html lang="en">
+	    <head>
+			<link rel="stylesheet" type="text/css" href="Stylesheet/styleAboutus.css">
+			<link rel="stylesheet" type="text/css" href="Stylesheet/chamindufooter.css">
+			 <link rel="stylesheet" href="Stylesheet/nav.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="icon" type="logo" href="logo.png">
+			<title>About us | VisitThambapanni</title>
+	   		<meta charset="UTF-8" >
+		    
+			
+		</head>
+		
+		<body>
+
+			<header>
+    
+		<a href="Presentation Page.html"><img src="Photos/logo.png" width="140px" height="150px" ></a>
+
+    
+    <!--navigation bar-->
+    <div class="nav" id="navId">
+      
+     
+	<br><br>
+      <a href="home.html">Home</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="ThingsToDo.html">Things To Do</a>
+      <a href="shop.html">Shop</a>
+      <a href="svg.html">Site Map</a>
+      <a href="Quiz.html">Quiz</a>
+	  <a href="AboutUs.html">About Us</a>
+      <a href="query.html">Query</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+	  
+    </div>
+  </header>
+		
+		    <section class="team-section">
+			    <div class="container">
+				    <div class="row">
+					    <div class="section-title">
+						    <h1>Our Members</h1>
+						</div>
+					</div>
+					<div class="row">
+					    <div class="team-items">
+						
+						    <div class="item">
+							    <img  src="Team/w1870577.jpg"  alt="student no.1"  >
+								<div class="inner">
+								    <div class="info">
+									    <div class="name">Didula Thaveesha</div><br><br><br>
+										<div class="role">Student 1</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="item">
+							    <img src="Team/w1870554.jpg"  alt="student no.2" >
+								<div class="inner">
+								    <div class="info">
+									    <div class="name">Chamindu Moramudali</div><br><br><br>
+										<div class="role">Student 2</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="item">
+							    <img src="Team/w1870591.jpg"  alt="student no.3" >
+								<div class="inner">
+								    <div class="info" >
+									    <div class="name">Nadun Wikramanayake</div><br><br><br>
+										<div class="role">Student 3</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="item">
+							    <img src="Team/w1870578.jpg"  alt="student no.4" >
+								<div class="inner">
+								    <div class="info">
+									    <div class="name">Chirantha Marasinghe</div><br><br><br>
+										<div class="role">Student 4</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</section>
+			<br><br>
+		
+			
+			<!--footer section starts-->
+      </div>
+      </section>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+  <footer>
+
+    <div class="column"  >
+        <ul style="list-style: none;">
+            <div class="content">
+		<a href="query.html" class="button">COMMENT</a>
+        </ul>
+
+    </div>
+    <div class="column" >
+        
+        </ul>
+
+
+        <p>
+        
+		 <div class="logo">
+          <a href="home.html"><img src="photos\logo.png" width="250px" height="250px"></a><br>
+        </div>
+	<hr>
+		<br>
+		<ul id="Contacticons">
+
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="Photos\icons8-youtube-500.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="Photos\fblogo.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="Photos\icons8-instagram-500.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            
+        </p>
+		
+    </div>
+	<hr>
+        <p>
+        
+
+
+        <ul id="Contacticons">
+
+            
+        </ul>
+		
+    <div class="column" >
+        <h2 style = "font-size:20px;">Visit Thmabapanni</h2>
+        <p style = "font-size:17px;  padding:50px;">Visit Thambapanni webpage founders Chamindu,Didula,Chirantha and Nadun Wheeler stapled together their first guidebook <br>
+		after an epic trip across Asia, Visit Thambapanni has put travellers at the heart of everything we do,<br>
+		informing and inspiring them with trusted content for print and digital from experts who visit every destination.</p>
+    </div>
+	</footer>
+<a href="Page editor\Page Editor(nadun).html" class="button">PAGE EDITER</a>
+  <!--footer section ends-->
+  <!--back to top-->
+  <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+  <!--Link for the javascript file-->
+  <script src="javascript/script.js"></script>
+
+
+
+
+  <!--back to top -->
+  <a class="gotopbtn" href="#"> <i >&uarr;</i> </a>
+
+  <!--Link for the javascript file-->
+  <script src="javascript/scriptQuery.js"></script>
+
+				
+		
+		</body>
+	</html>

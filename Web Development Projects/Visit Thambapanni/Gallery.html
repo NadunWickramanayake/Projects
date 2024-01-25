@@ -1,0 +1,388 @@
+<html>
+<head>
+	<link rel="icon" type="logo" href="logo.png">
+	<title>Gallery | Visit Thambapanni</title>
+	<link rel="stylesheet" href="Stylesheet/styleGallery.css">
+	<link rel="stylesheet" href="Stylesheet/chamindufooter.css">
+	<link rel="stylesheet" type="text/css" href="Stylesheet/nav.css">
+	<link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Englebert' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="Stylesheet/lightBox.css">
+	<script src="javascript/lightBoxJs.js" type="text/javascript"></script>
+
+
+
+</head>
+<body>
+
+
+	  <header>
+
+		<a href="Presentation Page.html"><img src="Photos/logo.png" width="140px" height="140px" ></a>
+
+
+    <!--navigation bar-->
+    <div class="nav" id="navId">
+
+
+	<br></br>
+      <a href="home.html">Home</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="ThingsToDo.html">Things To Do</a>
+      <a href="shop.html">Shop</a>
+      <a href="svg.html">Site Map</a>
+      <a href="Quiz.html">Quiz</a>
+	  <a href="AboutUs.html">About Us</a>
+      <a href="query.html">Query</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+
+    </div>
+  </header>
+
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("navId");
+      if (x.className === "nav") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav";
+      }
+    }
+  </script>
+	<div class=" banner">
+		<video autoplay muted loop>
+		  <source src="galleryImages/New video.mp4" type="video/mp4">
+		</video>
+
+	</div>
+
+
+
+		<br/>
+		<br/>
+			<p style="font-family:'Bubblegum Sans'; font-size:40px;" align="center">Background Colour :</p> <!-- change background colour-->
+			<p align="center">
+			<select class="scolor" onchange="color(this.value)" width="100px">
+				<option value="#FFFF00">Yellow</option>
+				<option value="#FF0000">Red</option>
+				<option value="#00FF00">Green</option>
+				<option value="#00FFFF">Aqua</option>
+				<option value="#800080">Purple</option>
+				<option value="#0000FF">Blue</option>
+				<option value="#000000">Black</option>
+			</select>
+			<script>
+				function color(value){
+					document.body.style.backgroundColor=value;
+				}
+			</script>
+		</p>
+		<br/>
+		<br/>
+		<br/>
+
+		<p style="font-family:'Bubblegum Sans'; font-size:40px;" align="center">Font Colour :</p>	<!-- change font colour-->
+		<p align="center">
+		<select class="scolor" id="colorChanger" onchange="changeColor(this.value)" width="100px">
+			<option value="#000000">Black</option>
+			<option value="#ffffff">White</option>
+			<option value="#FF0000">Red</option>
+			<option value="#00FF00">Green</option>
+			<option value="#FFC0CB">Pink</option>
+			<option value="#800080">Purple</option>
+			<option value="#0000FF">Blue</option>
+
+		</select>
+		<script>
+			function changeColor() {
+				var selectedtxtColor = document.getElementById("colorChanger").value;
+
+				document.body.style.color = selectedtxtColor;
+
+			}
+		</script>
+		</p>
+
+
+		<br>
+		<br>
+
+		<div class="row">
+		  <div class="column1">
+			<img src="galleryImages\mirissa1.jpg" alt="mirissa" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+			<br><br>
+			<p style="font-family:'Englebert'; font-size:20px;" align="center">Mirissa</p>
+		  </div>
+		  <div class="column1">
+			<img src="galleryImages\temple.jpg" alt="temple" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+		  <br><br>
+			<p style="font-family:'Englebert'; font-size:20px;" align="center">Temple</p>
+		  </div>
+		  <div class="column1">
+			<img src="galleryImages\galle1.jpg" alt="galle" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+		  <br><br>
+			<p style="font-family:'Englebert'; font-size:20px;" align="center">Gall Fort</p>
+		  </div>
+		  <div class="column1">
+			<img src="galleryImages\minneriya1.jpg" alt="minneriya" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+		  <br><br>
+			<p style="font-family:'Englebert'; font-size:20px;" align="center">Minneriya</p>
+		  </div>
+		  <div class="column1">
+			<img src="galleryImages\pinnawala1.jpg" alt="pinnawala" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+		  <br><br>
+			<p style="font-family:'Englebert'; font-size:20px;" align="center">Pinnawala</p>
+		  </div>
+		</div>
+		<br>
+		<br>
+
+		<div class="row" >
+		  <div class="column1">
+
+		  <br><br>
+			<p align="center"></p>
+		  </div>
+		  <div class="column1">
+			<img src="galleryImages\sigiriya1.jpg" alt="sigiriya" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+		  <br><br>
+			<p style="font-family:'Englebert'; font-size:20px;" align="center">Sigiriya</p>
+		  </div>
+		  <div class="column1">
+			<img src="galleryImages\mask1.jpg" alt="mask" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+		  <br><br>
+			<p style="font-family:'Englebert'; font-size:20px;" align="center">Mask</p>
+		  </div>
+		  <div class="column1">
+			<img src="galleryImages\gangaramaya1.jpg" alt="ganagaramaya" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+		  <br><br>
+			<p style="font-family:'Englebert'; font-size:20px;" align="center">Gangarama Temple</p>
+		  </div>
+		  </p>
+		</div>
+		<br>
+		<br>
+		<div class="row">
+		  <div class="column1">
+			<img src="galleryImages\adam1.jpg" alt="adamspeak" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+			<br><br>
+			<p style="font-family:'Englebert'; font-size:20px;" align="center">Adam's Peak</p>
+		  </div>
+		  <div class="column1">
+			<img src="galleryImages\pokuna1.jpg" alt="nelumpokuna" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+		  <br><br>
+			<p style="font-family:'Englebert'; font-size:20px;" align="center">Music festival</p>
+		  </div>
+		  <div class="column1">
+			<img src="galleryImages\lotus1.jpg" alt="lotustower" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+		  <br><br>
+			<p style="font-family:'Englebert'; font-size:20px;" align="center">Lotus Tower</p>
+		  </div>
+		  <div class="column1">
+			<img src="galleryImages\train1.jpg" alt="train" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+		  <br><br>
+			<p style="font-family:'Englebert'; font-size:20px;" align="center">Up country Train Ride</p>
+		  </div>
+
+
+		</div>
+
+		<div id="myModal" class="modal">
+		  <span class="close cursor" onclick="closeModal()">&times;</span>
+		  <div class="modal-content">
+
+			<div class="mySlides">
+			  <div class="numbertext">1 / 12</div>
+			  <img src="galleryImages\mirissa2.jpg" alt="mirissa" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">2 / 12</div>
+			  <img src="galleryImages\thuparamaya1.jpg" alt="thuparamaya" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">3 / 12</div>
+			  <img src="galleryImages\Galle_Fort.jpg" alt="galle" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">4 / 12</div>
+			  <img src="galleryImages\minneriya3.jpg" alt="minneriya" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">5 / 12</div>
+			  <img src="galleryImages\pinnawala2.jpg" alt="pinnawala" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">6 / 12</div>
+			  <img src="galleryImages\sigiriya3.jpg" alt="sigiriya" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">7 / 12</div>
+			  <img src="galleryImages\mask3.jpg" alt="mask" style="width:100%">
+			</div>
+			<div class="mySlides">
+			  <div class="numbertext">8 / 12</div>
+			  <img src="galleryImages\gangaramaya3.jpg" alt="ganagramaya" style="width:100%">
+			</div>
+			<div class="mySlides">
+			  <div class="numbertext">9 / 12</div>
+			  <img src="galleryImages\adam3.jpg" alt="adamspeak" style="width:100%">
+			</div> 
+
+			<div class="mySlides">
+			  <div class="numbertext">10 / 12</div>
+			  <img src="galleryImages\pokuna3.jpg" alt="pokuna" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">11 / 12</div>
+			  <img src="galleryImages\lotus2.jpg" alt="lotus" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">12 / 12</div>
+
+			  <img src="galleryImages\upcountry-train.jpg" alt="train" style="width:100%">
+			</div>
+
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+			  <p id="caption"></p>
+			</div>
+
+
+			<div class="column1">
+			  <img class="demo cursor" src="galleryImages\mirissa-1.jpg" alt="mirissa" style="width:100%" onmouseover="currentSlide(1)" alt="Mirissa">
+			</div>
+			<div class="column1">
+			  <img class="demo cursor" src="galleryImages\abayagiriya.jpg" alt="abayagiriya" style="width:100%" onmouseover="currentSlide(2)" alt="Abayagiriya Viharaya">
+			</div>
+			<div class="column1">
+			  <img class="demo cursor" src="galleryImages\galle.jpg" alt="galle" style="width:100%" onmouseover="currentSlide(3)" alt="Galle city">
+			</div>
+			<div class="column1">
+			  <img class="demo cursor" src="galleryImages\asian-elephant-2.jpg" alt="asia" style="width:100%" onmouseover="currentSlide(4)" alt="Loving Elephant">
+			</div>
+			<div class="column1">
+			  <img class="demo cursor" src="galleryImages\wild life.jpg" alt="wildlife" style="width:100%" onmouseover="currentSlide(5)" alt="Wild life">
+			</div>
+
+			<div class="column1">
+			  <img class="demo cursor" src="galleryImages\dabulla.jpg" alt="dabulla" style="width:100%" onmouseover="currentSlide(6)" alt="Rangiri Dabulla">
+			</div>
+			<div class="column1">
+			  <img class="demo cursor" src="galleryImages\ambalangoda.jpg" alt="ambalangoda" style="width:100%" onmouseover="currentSlide(7)" alt="Ambalangoda">
+			</div>
+			<div class="column1">
+			  <img class="demo cursor" src="galleryImages\kelaniya-01.webp" alt="kelaniya" style="width:100%" onmouseover="currentSlide(8)" alt="Kelaniya Temple">
+			</div>
+			<div class="column1">
+			  <img class="demo cursor" src="galleryImages\adam4.webp" alt="adam" style="width:100%" onmouseover="currentSlide(9)" alt="Adam's Peak">
+			</div>
+			<div class="column1">
+			  <img class="demo cursor" src="galleryImages\colombo.jpg" alt="colombo" style="width:100%" onmouseover="currentSlide(10)" alt="Colombo Srilanka">
+			</div>
+
+			<div class="column1">
+			  <img class="demo cursor" src="galleryImages\idalgashinna.jpg" alt="idalgashinna" style="width:100%" onmouseover="currentSlide(12)" alt="Lotus Tower">
+			</div>
+			<div class="column1">
+			  <img class="demo cursor" src="galleryImages\mirissa-2.jpg" alt="mirissa" style="width:100%" onmouseover="currentSlide(13)" alt="Idalgashinna">
+			</div>
+		  </div>
+		</div>
+
+
+
+
+
+  <!--fotter part -->
+  <!--footer section starts-->
+
+
+
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+ <footer>
+
+    <div class="column"  >
+        <ul style="list-style: none;">
+            <div class="content">
+		<a href="query.html" class="button">COMMENT</a>
+        </ul>
+
+    </div>
+    <div class="column" >
+
+        </ul>
+
+
+        <p>
+
+		 <div class="logo">
+          <a href="home.html"><img src="photos\logo.png" width="250px" height="250px"></a><br>
+        </div>
+	<hr>
+		<br>
+		<ul id="Contacticons">
+
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="Photos\icons8-youtube-500.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="Photos\fblogo.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="Photos\icons8-instagram-500.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+
+        </p>
+
+    </div>
+	<hr>
+        <p>
+
+
+
+        <ul id="Contacticons">
+
+
+        </ul>
+
+    <div class="column" >
+        <h2 style = "font-size:20px;">Company Name</h2>
+        <p style = "font-size:17px;  padding:50px;">Visit Thambapanni webpage founders Chamindu,Didula,Chirantha and Nadun Wheeler stapled together their first guidebook <br>
+		after an epic trip across Asia, Visit THambapanni has put travellers at the heart of everything we do,<br>
+		informing and inspiring them with trusted content for print and digital from experts who visit every destination.</p>
+    </div>
+	</footer>
+<a href="Page editor\Page Editor(chirantha).html" class="button">PAGE EDITER</a>
+
+  <!--back to top -->
+  <a class="backtopbtn" href="#"> <i >&uarr;</i> </a>
+
+  <!--Link for the javascript file-->
+  <script src="javascript/script.js"></script>
+  <script src="javascript/scriptQuery.js"></script>
+
+</body>
+</html>

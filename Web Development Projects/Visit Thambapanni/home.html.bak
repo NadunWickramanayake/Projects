@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="logo" href="logo.png">
+  <title>Home | VisitThambapanni</title>
+
+  <!--Link for the css file-->
+  <link rel="stylesheet" href="Stylesheet/styleHome.css">
+  <link rel="stylesheet" type="text/css" href="Stylesheet/chamindufooter.css">
+			 <link rel="stylesheet" href="Stylesheet/nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!--header section starts -->
+  <header>
+    <a href="Presentation Page.html"><img src="Photos\logo.png" width="140px" height="140px"></a>
+
+    <!--navigation bar-->
+	
+    <div class="nav" id="navId">
+	<br>
+	 <br>
+	 <br>
+	
+      <a href="home.html">Home</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="ThingsToDo.html">Things To Do</a>
+      <a href="shop.html">Shop</a>
+      <a href="sitemap.html">Site Map</a>
+      <a href="Quiz.html">Quiz</a>
+      <a href="AboutUs.html">About Us</a>
+      <a href="query.html">Query</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+
+  <!--home section starts-->
+  <section class="homechar">
+
+
+
+    <div class="video-container">
+      <video src="HomeImages/011.mp4" id="video-slider" autoplay loop muted></video>
+    </div>
+
+  </section>
+ 
+  <br>
+  <br>
+  <h1 style ="text-align: center";>"Ayubowan  !!!"</h1>
+  <br>
+  <br>
+  <br>
+	<img src="HomeImages/wel.jpg" alt ="welcome "class="img" width="300" height="400" >
+
+  <br>
+  <br>
+  <h1 style ="font-style:inherit;text-align: center";>MAY YOU HAVE LONG LIFE</h1>
+  <br>
+  <br>
+  <p style="font-family:'MV Boli'; font-size:30px;  padding:50px;" >"When you think of a holiday in Sri Lanka, the first thing that comes to our mind is the gorgeous palm fringed beaches of Sri Lanka,
+  the lush green tropical landscapes and the hospitality of the Sri Lankan people. The soft sound of waves lapping in to the beach, endless strips of white sandy beaches contrasting with deep blue waters must be what’s on your mind when you plan to travel to a beautiful tropical beach.
+  Whether to set your spirit of adventure free or just to relax and enjoy the tranquil settings, Sri Lanka is the ideal holiday destination. Sri Lanka is endowed with so many beautiful beaches, many an idyllic setting with swaying palm trees bending over the white sand lapped by blue waves and coral reefs that are home to many types of tropical fish. 
+  As you travel along the western, eastern or southern coastline, around every bend you will come upon yet another inviting tropical vista, which testifies Sri Lanka, a tropical island as the best place to holiday." </p>
+  <section class="shop" id="shop">
+
+    <h1 style="font-size:30px;font-style:inherit;text-align:center;">SHOP NOW!!!</h1>
+	 <br>
+     <br>
+	 <br>
+	 
+	 
+    <div class="salechar">
+      
+      <a href="shop.html" class="btn"></a>
+    </div>
+	
+	
+	<br>
+	<br>
+	<br>
+	<br>
+    <br>
+    <br>
+    
+
+  </section>
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1 style="text-align:center;">SRI LANKA TOURIST DESTINATAION</H1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <img src="HomeImages/map_0.jpg" alt ="welcome " class="img" width="300" height="400" > 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <h1 style="text-align:center;font-size:30px;">GALLERY IMAGES</h1>
+
+  <section class="gallery" id="gallery">
+    <div class="rows">
+
+      <div class="colomns">
+        <div class="test">
+          <img src="galleryImages\sigiriya1.jpg" alt="sigiriya" style="width: 100%;height: 200px;">
+        </div>
+        <div class="test">
+          <img src="galleryImages\gangaramaya1.jpg" alt="gangaramaya" style="width: 100%;">
+        </div>
+        <div class="test">
+          <img src="galleryImages\minneriya3.jpg" alt="minneriya" style="width: 100%;height: 150px;">
+        </div>
+      </div>
+
+      <div class="colomns">
+        <div class="test">
+          <img src="galleryImages\pinnawala2.jpg" alt="pinnawala" style="width: 100%;">
+        </div>
+        <a href="Gallery.html" class="btn">More...</a>
+        <div class="test">
+          <img src="galleryImages\wild life.jpg" alt="wildlife" style="width: 100% ;">
+        </div>
+      </div>
+
+      <div class="colomns">
+        
+        <div class="test">
+          <img src="galleryImages\idalgashinna.jpg" alt="idalgashinna" style="width: 100%;">
+        </div>
+        <div class="test">
+          <img src="galleryImages\ele.jpg" alt="ella" style="width: 100%;">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--footer section starts-->
+
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+  <footer>
+    <div class="row">
+    <div class="column"  >
+        <ul style="list-style: none;">
+            <div class="content">
+		<a href="query.html" class="button">COMMENT</a>
+        </ul>
+
+    </div>
+    <div class="column" >
+        
+        </ul>
+
+
+        <p>
+        
+		 <div class="logo">
+          <a href="home.html"><img src="Photos\logo.png" width="250px" height="250px"></a><br>
+        </div>
+	<hr>
+		<br>
+		<ul id="Contacticons">
+
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="Photos\icons8-youtube-500.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="Photos\fblogo.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="Photos\icons8-instagram-500.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            
+        </p>
+		
+    </div>
+	<hr>
+        <p>
+        
+
+
+        <ul id="Contacticons">
+
+            
+        </ul>
+		
+    <div class="column" >
+        <h2 style = "font-size:20px;">Visit Thambapanni</h2>
+        <p style = "font-size:17px;  padding:50px;">Visit Thambapanni webpage founders Chamindu,Didula,Chirantha and Nadun Wheeler stapled together their first guidebook <br>
+		after an epic trip across Asia, Visit Thambapanni has put travellers at the heart of everything we do,<br>
+		informing and inspiring them with trusted content for print and digital from experts who visit every destination.</p>
+    </div>
+	</footer>
+  
+  
+
+  <!--footer section ends-->
+  <!--back to top-->
+  <a class="backtopbtn" href="#"> <i >&uarr;</i> </a>
+  <!--Link for the javascript file-->
+  <script src="javascript/script.js"></script>
+   <script src="javascript/scriptQuery.js"></script>
+</body>
+
+</html>

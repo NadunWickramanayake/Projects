@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Quiz</title>
+	
+	<link rel="stylesheet" type="text/css" href="Stylesheet/QuizCss.css">
+    <link rel="stylesheet" href="Stylesheet/chamindufooter.css">
+	<link rel="stylesheet" type="text/css" href="Stylesheet/nav.css">
+    <script src="javascript/QuizJavaScript.js"></script>
+	
+</head>
+
+<body>
+	<header>
+
+		<a href="Presentation Page.html"><img src="Photos/logo.png" width="140px" height="140px" ></a>
+
+
+    <!--navigation bar-->
+    <div class="nav" id="navId">
+
+
+	<br></br>
+      <a href="home.html">Home</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="ThingsToDo.html">Things To Do</a>
+      <a href="shop.html">Shop</a>
+      <a href="svg.html">Site Map</a>
+      <a href="Quiz.html">Quiz</a>
+	  <a href="AboutUs.html">About Us</a>
+      <a href="query.html">Query</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+
+    </div>
+  </header>
+	<div class="backgroundimage">
+
+	<!--Form part-->
+	 
+	<h1>Quiz</h1>
+	
+	<input type="button" value="Start Quiz" class="ButtonColor" onclick="StartQuiz(); MainFunction(); timer(); ">
+	
+	<div id="Color">
+	<form name="quiz" id="quizForm">
+		<p>1.If you go for a visit, you might find out that which of the following is a commonly used nickname for the beautiful island nation of Sri Lanka? </p><br>
+			<p><input type="radio" name="q1" id="q1a" value=1><label for="q1a">A. The Diamond of the Orient</label></p>
+			<p><input type="radio" name="q1" id="q1b" value=2><label for="q1b">B.  Pearl of the Indian Ocean</label></p>
+			<p><input type="radio" name="q1" id="q1c" value=3><label for="q1c">C. Ruby of the Pacific</label></p> 
+			<p><input type="radio" name="q1" id="q1d" value=4><label for="q1d">D. Jewel of the Nile</label></p>
+	
+	    <br>
+		<p>2.In which Sri Lankan city, also the capital of the last independent kingdom in 1592, is the Esala Perahera festival held?</p><br>
+			<p><input type="radio" name="q2" id="q2a" value=1><label for="q2a">A. Colombo</label></p>
+			<p><input type="radio" name="q2" id="q2b" value=2><label for="q2b">B. Kotikawatta</label></p>
+			<p><input type="radio" name="q2" id="q2c" value=3><label for="q2c">C. Katunayake</label></p>
+			<p><input type="radio" name="q2" id="q2d" value=4><label for="q2d">D. Kandy</label></p>
+		
+		<br>
+		<p>3.The gemstone tourmaline gets its name from which of the following languages, the national language of Sri Lanka?</p><br>
+			<p><input type="radio" name="q3" id="q3a" value=1><label for="q3a">A. Nepalese</label></p>
+			<p><input type="radio" name="q3" id="q3b" value=2><label for="q3b">B. Sinhalese</label></p>
+			<p><input type="radio" name="q3" id="q3c" value=3><label for="q3c">C. Persian</label></p>
+			<p><input type="radio" name="q3" id="q3d" value=4><label for="q3d">D. Mandari</label></p>
+		
+        <br>		
+		<p>4. Sri Lanka is known for exporting tea, coffee, rubber and cinnamon, but only one of them is native to the island. Which one?</p><br>
+			<p><input type="radio" name="q4" id="q4a" value=1><label for="q4a">A. Tea</label></p>
+			<p><input type="radio" name="q4" id="q4b" value=2><label for="q4b">B. Rubber</label></p>
+			<p><input type="radio" name="q4" id="q4c" value=3><label for="q4c">C. Coffee</label></p>
+			<p><input type="radio" name="q4" id="q4d" value=4><label for="q4d">D. Cinnamon</label></p>
+		
+        <br>		
+		<p>5.This waterfall, with one sheer drop of 98 metres, is the eighteenth highest in Sri Lanka and runs off the Kehelgamuwa River. Sharing its name with an important city in Scotland it is called which of these?</p><br>
+			<p><input type="radio" name="q5" id="q5a" value=1><label for = "q5a">A. Dundee Falls</label></p>
+			<p><input type="radio" name="q5" id="q5b" value=2><label for = "q5b">B. Inverness Falls</label></p>
+			<p><input type="radio" name="q5" id="q5c" value=3><label for = "q5c">C. Edinburgh Falls</label></p>
+			<p><input type="radio" name="q5" id="q5d" value=4><label for = "q5d">D. Aberdeen Falls</label></p>
+		
+        <br>		
+		<p>6.Which of the following is the tallest point in Sri Lanka?</p><br>
+			<p><input type="radio" name="q6" id="q6a" value=1><label for = "q6a">A. Jaffna</label></p>
+			<p><input type="radio" name="q6" id="q6b" value=2><label for = "q6b">B. Adam's peak</label></p>
+			<p><input type="radio" name="q6" id="q6c" value=3><label for = "q6c">C. Pidurutalagala</label></p>
+			<p><input type="radio" name="q6" id="q6d" value=4><label for = "q6d">D. Hatton</label></p>
+		
+        <br>		
+		<p>7.What national park has the world's highest concentration of leopards per square kilo meter?</p><br>
+			<p><input type="radio" name="q7" id="q7a" value=1><label for = "q7a">A. HortonPlains</label></p>
+			<p><input type="radio" name="q7" id="q7b" value=2><label for = "q7b">B. Yala</label></p>
+			<p><input type="radio" name="q7" id="q7c" value=3><label for = "q7c">C. Hikkaduwa</label></p>
+			<p><input type="radio" name="q7" id="q7d" value=4><label for = "q7d">D. Wilpattu</label></p>
+		
+        <br>		
+		<p>8.Where is the world's largest gathering of wild asian elephants?</p><br>
+			<p><input type="radio" name="q8" id="q8a" value=1><label for = "q8a">A. Madu Road</label></p>
+			<p><input type="radio" name="q8" id="q8b" value=2><label for = "q8b">B. Bundala</label></p>
+			<p><input type="radio" name="q8" id="q8c" value=3><label for = "q8c">C. Kumana</label></p>
+			<p><input type="radio" name="q8" id="q8d" value=4><label for = "q8d">D. Minneriya</label></p>
+		
+        <br>		
+		<p>9.The beach that was named as the world's best beach for the year 2004 by the Discovery Channel is,</p><br>
+			<p><input type="radio" name="q9" id="q9a" value=1><label for = "q9a">A. Arugambay </label></p>
+			<p><input type="radio" name="q9" id="q9b" value=2><label for = "q9b">B. Bentota</label></p>
+			<p><input type="radio" name="q9" id="q9c" value=3><label for = "q9c">C. Unawatuna</label></p>
+			<p><input type="radio" name="q9" id="q9d" value=4><label for = "q9d">D. Uppaveli</label></p>
+		
+        <br>		
+		<p>10.A word used in Sri Lanka to greet someone. It means Long Life. One is generally greeted by joining two hands in a prayer-like manner. What is this traditional Sri Lankan greeting?</p><br>
+			<p><input type="radio" name="q10" id="q10a" value=1><label for = "q10a">A.Jumbo</label></p>
+			<p><input type="radio" name="q10" id="q10b" value=2><label for = "q10b">B.Ayubowan</label></p>
+			<p><input type="radio" name="q10" id="q10c" value=3><label for = "q10c">C.Bohoma Isthuthi</label></p>
+			<p><input type="radio" name="q10" id="q10d" value=4><label for = "q10d">D.Takahiri</label></p>
+			
+			<br>
+			<div>Seconds: <span id="time"></span></div>
+			<input type="button" value="Done" class="SubmitButton" onclick="endQuiz(); stop();">
+			
+			
+	</form>
+	</div>
+	
+	<div id="End_Of_HTML_Display"></div>
+
+	</div>
+<!--fotter part -->
+  <!--footer section starts-->
+
+
+
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+ <footer>
+
+    <div class="column"  >
+        <ul style="list-style: none;">
+            <div class="content">
+		<a href="query.html" class="button">COMMENT</a>
+        </ul>
+
+    </div>
+    <div class="column" >
+
+        </ul>
+
+
+        <p>
+
+		 <div class="logo">
+          <a href="home.html"><img src="photos\logo.png" width="250px" height="250px"></a><br>
+        </div>
+	<hr>
+		<br>
+		<ul id="Contacticons">
+
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="Photos\icons8-youtube-500.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="Photos\fblogo.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="Photos\icons8-instagram-500.png" alt="" width="60" class="contactmeimg ">
+            </a>
+
+
+        </p>
+
+    </div>
+	<hr>
+        <p>
+
+
+
+        <ul id="Contacticons">
+
+
+        </ul>
+
+    <div class="column" >
+        <h2 style = "font-size:20px;">Company Name</h2>
+        <p style = "font-size:17px;  padding:50px;">Visit Thambapanni webpage founders Chamindu,Didula,Chirantha and Nadun Wheeler stapled together their first guidebook <br>
+		after an epic trip across Asia, Visit THambapanni has put travellers at the heart of everything we do,<br>
+		informing and inspiring them with trusted content for print and digital from experts who visit every destination.</p>
+    </div>
+	</footer>
+<a href="Page editor\Page Editor(nadun).html" class="button">PAGE EDITER</a>
+
+  <!--back to top -->
+  <a class="backtopbtn" href="#"> <i >&uarr;</i> </a>
+
+  <!--Link for the javascript file-->
+  <script src="javascript/script.js"></script>
+  <script src="javascript/scriptQuery.js"></script>
+
+</body>
+</html>
+	
+</body>
+</html>

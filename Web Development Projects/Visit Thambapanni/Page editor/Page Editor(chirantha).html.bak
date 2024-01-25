@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+
+    <title>Page Editor</title>
+</head>
+<style>
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  border:2px;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+
+
+</style>
+<body>
+<div class="box">
+    <img src="w1870578.jpg" alt="Chirantha Marasinghe" class="box-img">
+    <h1>Chirantha Marasinghe</h1>
+    <h5> Role - Student 4</h5>
+    <h5>UoW No      : w1870578</h5>
+    <h5>Student ID  : 20210210</h5>
+ 
+    <p><b><u>Task Completed</u></b></p>
+   
+     <p>Site map</p>
+    <p>Gallery</p>
+    <p>Things To Do</p>
+	<p>Page Editor</p>
+	<p>Page Logo</p>
+</div>
+</body>
+</html>
+
