@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Poppins:ital,wght@1,600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+body{
+    background-image: url('../app_photos/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section
+{
+
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background: darkblue*/;
+
+}
+
+.button {
+    background-color: #8049e0; /* Green */
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px 20px;
+    cursor: pointer;
+    position: fixed;
+    right: 40%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0px 2px 6px rgba(71, 75, 198, 0.5);
+} 
+
+  
+
+.content{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+
+    position: relative;
+    max-width: 600px;
+    margin-top: 8%;
+}
+
+.content .textBox h2{
+
+    color: aliceblue;
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight: 500;
+    font-family: 'Courgette', cursive;
+}
+
+.content .textBox h2 span{
+
+    color:#FAC213; 
+    font-size: 1.9em;
+    font-weight: 900;
+    
+}
+
+.content .textBox p{
+    color: aliceblue;
+    font-family: 'Courgette', cursive;
+}
+
+.content .textBox a{
+
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 15px 40px;
+    background: rgb(2, 2, 109);
+    color: #FAC213;
+    border-radius: 40px;
+    font-weight: 800;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.content .textBox a:hover{
+    background: #FAC213;
+    color: darkblue;
+
+}
+
+.form-holder{
+    justify-content: center;
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding:30px 30px;
+    border-radius: 25px;
+    background: linear-gradient(135deg,#F2921D,#0A2647);
+}
+
+.container .heading{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+    background:none;
+
+}
+
+/* .container.heading::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(135deg,#13005A,#FAC213);
+}  */
+
+button {
+    position: absolute;
+    border-radius: 50px;
+    background: linear-gradient(135deg,#021044,#1c5da7);
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+  
+  button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  } 

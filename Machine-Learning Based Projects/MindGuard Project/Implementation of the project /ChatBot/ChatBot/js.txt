@@ -1,0 +1,19 @@
+var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({
+  "name": "Thushini",
+  "responses": "well so much for being unhappy for about 10 minute, Power back up not working too, Is at a photoshoot, fell asleep waiting for my ride!"
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("http://127.0.0.1:5000//screen_for_depression", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
